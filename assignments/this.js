@@ -17,11 +17,7 @@ function f1() {
   return this;
 }
 
-// In a browser:
-f1() === window; // true
 
-// In Node:
-f1() === global; // true
 
 // code example for Window Binding
 
